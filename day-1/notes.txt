@@ -1,0 +1,8 @@
+DAY 1 COMPLETE
+
+HOURS SPENT: 2-3 HOURS
+
+What I understood well:
+- Basic HTML structure
+- Headings and paragraphs
+- Links and images

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Make a Reservation</title>
+  </head>
+  <body>
+    <h1>Reserve Your Table</h1>
+
+    <form>
+      <label>Full Name:</label>
+      <input type="text" name="name" required /><br /><br />
+
+      <label>Email:</label>
+      <input type="email" name="email" required /><br>
+      <br />
+
+      <label>Phone:</label>
+      <input type="tel" name="phone" /><br /><br />
+
+      <label>Date:</label>
+      <input type="date" name="date" /><br /><br />
+
+      <label>Time:</label>
+      <input type="time" name="time" /><br /><br />
+
+      <label>Party size:</label>
+      <select name="party-size">
+        <option>1 person</option>
+        <option>2 people</option>
+        <option>3 people</option>
+        <option>4 people</option>
+        <option>5+ people</option></select
+      ><br /><br />
+
+      <p>Seating Preference:</p>
+      <input type="radio" name="seating" value="indoor" />Indoor <br />
+      <input type="radio" name="seating" value="outdoor" />Outdoor (weather
+      permitting) <br />
+      <input type="radio" name="seating" value="any" />No preference
+      <br /><br />
+
+      <p>Special requests (check all that apply):</p>
+      <input type="checkbox" name="requests" value="highchair" /> High Chairs
+      needed <br />
+      <input type="checkbox" name="requests" value="allergies" /> Food allergies
+      <br />
+      <input type="checkbox" name="requests" value="celebration" />
+      Birthday/celebration <br /><br />
+
+      <label>Additional notes:</label><br />
+      <textarea
+        rows="4"
+        cols="40"
+        placeholder="Any allergies, accessibility needs, 
+            or special requests..."
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Request Reservation</button>
+    </form>
+  </body>
+</html>

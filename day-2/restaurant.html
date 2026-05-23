@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nate's Restaurant</title>
+</head>
+<body>
+    <header>
+        <h1>Nate's Restaurant</h1>
+        <p>A place to dine and enjoy yourself</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>  |
+        <a href="#">Menu</a>  |
+        <a href="#">Reserve</a>  |
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Today's Specials</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Meal</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>                    
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Jollof Rice with Fried Plantains</td>
+                        <td>Smoky, tomato-based West African rice slow-cooked with peppers and spices, served alongside golden sweet fried plantains.</td>
+                        <td>$4.50</td>
+                    </tr>
+
+                        <tr>
+                        <td>BBQ Pulled Chicken Sandwich</td>
+                        <td>Slow-cooked shredded chicken in smoky BBQ sauce on a toasted brioche bun, topped with coleslaw and pickles.</td>
+                        <td>$4.75</td>
+                    </tr>
+
+                        <tr>
+                        <td>Spaghetti Aglio e Olio</td>
+                        <td>Classic Italian pasta tossed in olive oil, garlic, red chili flakes, and fresh parsley — simple, bold, and satisfying.</td>
+                        <td>$3.80</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Full Menu</h2>
+            <h3>Appetizers</h3>
+              <table border="1">
+                <thead>
+                    <tr>
+                        <th>Menu</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>                    
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Crispy Falafel with Tzatziki</td>
+                        <td>Golden-fried chickpea fritters seasoned with cumin and coriander, served with a cool garlicky yogurt dip.</td>
+                        <td>$4.50</td>
+                    </tr>
+
+                        <tr>
+                        <td>Buffalo Chicken Wings</td>
+                        <td>Crispy baked wings tossed in tangy buffalo sauce, served with celery and blue cheese dip.</td>
+                        <td>$4.90</td>
+                    </tr>
+
+                        <tr>
+                        <td>Pan-Fried Gyoza</td>
+                        <td>Pork and cabbage dumplings pan-fried to a crispy bottom, with soy-sesame dipping sauce.</td>
+                        <td>$4.20</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Main Course</h3>
+              <table border="1">
+                <thead>
+                    <tr>
+                        <th>Menu</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>                    
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Butter Chicken with Naan</td>
+                        <td>Tender chicken simmered in a rich, creamy tomato-spiced sauce, served with warm fluffy naan bread for dipping.</td>
+                        <td>$4.90</td>
+                    </tr>
+
+                        <tr>
+                        <td>Greek Chicken Gyro</td>
+                        <td>Seasoned grilled chicken wrapped in warm pita with fresh tomatoes, onions, and a generous spread of tzatziki.</td>
+                        <td>$4.60</td>
+                    </tr>
+
+                        <tr>
+                        <td>Lomo Saltado</td>
+                        <td>Peruvian stir-fry of beef strips, tomatoes, and onions in soy-citrus sauce, served with fries and white rice.</td>
+                        <td>$4.75</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Desserts</h3>
+              <table border="1">
+                <thead>
+                    <tr>
+                        <th>Menu</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>                    
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Crème Brûlée</td>
+                        <td>Silky vanilla custard with a perfectly torched caramelized sugar crust that cracks with a spoon.</td>
+                        <td>$4.80</td>
+                    </tr>
+
+                        <tr>
+                        <td>Chocolate Lava Cake</td>
+                        <td>Warm chocolate cake with a molten gooey center, served with a scoop of vanilla ice cream.</td>
+                        <td>$4.50</td>
+                    </tr>
+
+                        <tr>
+                        <td>Mango Mochi</td>
+                        <td>Soft, chewy rice cake parcels filled with sweet mango-flavored cream — light and refreshing.</td>
+                        <td>$3.50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Make a Reservation</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="name" required><br><br>
+
+                <label>Email:</label>
+                <input type="email" name="email" required /><br><br />
+
+                <label>Phone:</label>
+                <input type="tel" name="phone" /><br /><br />
+
+                <label>Date:</label>
+                <input type="date" name="date" /><br /><br />
+
+                <label>Time:</label>
+                <input type="time" name="time" /><br /><br />
+
+                <label>Party size:</label>
+                <select name="party-size">
+                    <option>1 person</option>
+                    <option>2 people</option>
+                    <option>3 people</option>
+                    <option>4 people</option>
+                    <option>5+ people</option></select><br /><br />
+
+                <p>Seating Preference:</p>
+                <input type="radio" name="seating" value="indoor" />Indoor <br />
+                <input type="radio" name="seating" value="outdoor" />Outdoor (weather permitting) <br />
+                <input type="radio" name="seating" value="any" />No preference
+                <br /><br />
+
+                <p>Special requests (check all that apply):</p>
+                <input type="checkbox" name="requests" value="highchair" /> High Chairs needed <br />
+                <input type="checkbox" name="requests" value="allergies" /> Food allergies
+                <br />
+                <input type="checkbox" name="requests" value="celebration" />
+                Birthday/celebration <br /><br />
+
+                <label>Additional notes:</label><br />
+                <textarea
+                    rows="4"
+                    cols="40"
+                    placeholder="Any allergies, accessibility needs, 
+                    or special requests..."></textarea><br /><br />
+
+                <button type="submit">Request Reservation</button>
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Hours & Info</h3>
+        <p><strong>Hours:</strong><br>
+        Mon-Thu: 11am-10pm <br>
+        Fri-Sat: 11am-11pm <br>
+        Sun: 12pm-9pm</p>
+
+        <p><strong>Contact:</strong><br>
+        Phone: (+234) 7057386592 <br>
+        Email: natekitchen@gmail.com</p>
+    </aside>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15739.117108548122!2d-13.694167649999999!3d9.52789645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants!5e0!3m2!1sen!2s!4v1779493948016!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <p>© 2026 Nate's Restaurant. All rights reserved.</p>
+        <p>Follow us: <a href="#">Facebook</a>  |  <a href="#">Instagram</a></p>
+    </footer>
+</body>
+</html>
